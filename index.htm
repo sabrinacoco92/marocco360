@@ -20,9 +20,9 @@
   <style>body { box-sizing: border-box; }</style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
- <body class="h-full font-body bg-[#e8dfd5] text-[#2d2416] overflow-auto"><!-- Nav -->
-  <header class="py-3 px-4">
-   <span class="font-heading font-bold text-[#c4956a] text-sm" id="nav-title">Marocco 2025</span>
+ <body class="h-full font-body bg-[#1a1410] text-[#f5ebe0] overflow-auto">
+  <!-- Nav -->
+  <header class="py-3 px-4"><span class="font-heading font-bold text-[#c4956a] text-sm" id="nav-title">Marocco 2025</span>
   </header><!-- Hero -->
   <header class="moroccan-pattern relative py-20 px-4 text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(45, 36, 22, 0.6), rgba(45, 36, 22, 0.6)), url('https://strapi-imaginary.weroad.it/resource/webp-large/94653/uomini-turbanti-cammelli-deserto.webp');" id="hero-section">
    <div class="max-w-3xl mx-auto">
@@ -82,7 +82,8 @@
   </section><!-- Search Section -->
   <section id="search-section" class="scroll-section max-w-5xl mx-auto px-4 py-6">
    <div class="relative">
-    <div class="flex gap-2 items-center bg-[#2a2018] rounded-lg p-3 border border-[#c4956a]/20 focus-within:border-[#c4956a]/60"><i data-lucide="search" class="w-5 h-5 text-[#c4956a]/60 flex-shrink-0"></i> <input id="search-input" type="text" placeholder="Cerca passaporto, visto, clima, denaro..." class="flex-1 bg-transparent text-[#f5ebe0] placeholder-[#f5ebe0]/40 focus:outline-none text-sm">
+    <div class="flex gap-2 items-center bg-[#2a2018] rounded-lg p-3 border border-[#c4956a]/20 focus-within:border-[#c4956a]/60">
+     <i data-lucide="search" class="w-5 h-5 text-[#c4956a]/60 flex-shrink-0"></i> <input id="search-input" type="text" placeholder="Cerca passaporto, visto, clima, denaro..." class="flex-1 bg-transparent text-[#f5ebe0] placeholder-[#f5ebe0]/40 focus:outline-none text-sm">
     </div>
     <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-2 bg-[#1a1410] rounded-lg border border-[#c4956a]/20 shadow-lg z-10 max-h-64 overflow-y-auto">
      <div id="search-results-content" class="p-3"></div>
@@ -91,8 +92,7 @@
   </section><!-- Itinerary Section -->
   <section id="itinerary" class="scroll-section max-w-6xl mx-auto px-4 py-12">
    <h2 class="font-heading text-lg font-bold text-[#c4956a] mb-6">Itinerario Dettagliato</h2>
-   <div class="grid grid-cols-3 gap-3">
-    <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="1"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 1</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Benvenuti in Marrakech!</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="2"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 2</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Città Imperiali</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="3"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 3</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Volubilis &amp; Chefchaouen</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="4"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 4</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Medina di Fes</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="5"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 5</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Deserto Merzouga</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="6"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 6</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Gole &amp; Oasi</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="7"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 7</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Valle Rose &amp; Kasbah</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="8"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 8</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Marrakech</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="9"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 9</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Rientro</h3></button>
+   <div class="grid grid-cols-3 gap-3"><button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="1"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 1</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Benvenuti in Marrakech!</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="2"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 2</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Città Imperiali</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="3"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 3</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Volubilis &amp; Chefchaouen</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="4"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 4</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Medina di Fes</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="5"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 5</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Deserto Merzouga</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="6"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 6</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Gole &amp; Oasi</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="7"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 7</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Valle Rose &amp; Kasbah</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="8"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 8</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Marrakech</h3></button> <button class="itinerary-btn bg-[#2a2018] border border-[#c4956a]/20 rounded-lg p-3 text-left hover:border-[#c4956a]/50 hover:bg-[#332419] transition cursor-pointer" data-day="9"> <p class="text-xs text-[#c4956a] tracking-wider uppercase mb-1">Giorno 9</p><h3 class="font-heading text-sm font-bold text-[#f5ebe0]">Rientro</h3></button>
    </div>
   </section><!-- Itinerary Detail Modal -->
   <div id="itinerary-modal-overlay" class="hidden fixed inset-0 bg-black/50 z-40 flex items-center justify-center p-4" style="display: none;">
@@ -111,15 +111,13 @@
       <li>• Cena di benvenuto</li>
      </ul>
     </div>
-    <div class="bg-[#2a2018] p-4 border-t border-[#c4956a]/20 flex gap-3">
-     <button id="itinerary-modal-close-btn" class="flex-1 bg-[#c4956a]/20 hover:bg-[#c4956a]/30 text-[#c4956a] rounded-lg py-2 font-semibold transition">Chiudi</button>
+    <div class="bg-[#2a2018] p-4 border-t border-[#c4956a]/20 flex gap-3"><button id="itinerary-modal-close-btn" class="flex-1 bg-[#c4956a]/20 hover:bg-[#c4956a]/30 text-[#c4956a] rounded-lg py-2 font-semibold transition">Chiudi</button>
     </div>
    </div>
   </div><!-- Info Pratiche -->
   <section id="info" class="scroll-section max-w-5xl mx-auto px-4 py-8">
    <h2 class="font-heading text-lg font-bold text-[#c4956a] mb-4">Guide Pratiche</h2>
-   <div class="grid md:grid-cols-4 gap-3">
-    <button class="info-section-btn w-full flex gap-3 items-center bg-[#2a2018] rounded-lg p-3 border border-[#c4956a]/10 hover:border-[#c4956a]/40 hover:bg-[#332419] transition cursor-pointer" data-section="info"> <i data-lucide="file-text" class="w-5 h-5 text-[#c4956a] flex-shrink-0"></i>
+   <div class="grid md:grid-cols-4 gap-3"><button class="info-section-btn w-full flex gap-3 items-center bg-[#2a2018] rounded-lg p-3 border border-[#c4956a]/10 hover:border-[#c4956a]/40 hover:bg-[#332419] transition cursor-pointer" data-section="info"> <i data-lucide="file-text" class="w-5 h-5 text-[#c4956a] flex-shrink-0"></i>
      <div class="text-left">
       <h3 class="font-semibold text-sm">Info Pratiche</h3>
      </div></button> <button class="info-section-btn w-full flex gap-3 items-center bg-[#2a2018] rounded-lg p-3 border border-[#c4956a]/10 hover:border-[#c4956a]/40 hover:bg-[#332419] transition cursor-pointer" data-section="bagaglio"> <i data-lucide="briefcase" class="w-5 h-5 text-[#c4956a] flex-shrink-0"></i>
@@ -141,14 +139,14 @@
     </div>
     <div id="info-modal-content" class="p-6 max-h-96 overflow-y-auto">
     </div>
-    <div class="bg-[#2a2018] p-4 border-t border-[#c4956a]/20 flex gap-3">
-     <button id="info-modal-close-btn" class="flex-1 bg-[#c4956a]/20 hover:bg-[#c4956a]/30 text-[#c4956a] rounded-lg py-2 font-semibold transition">Chiudi</button>
+    <div class="bg-[#2a2018] p-4 border-t border-[#c4956a]/20 flex gap-3"><button id="info-modal-close-btn" class="flex-1 bg-[#c4956a]/20 hover:bg-[#c4956a]/30 text-[#c4956a] rounded-lg py-2 font-semibold transition">Chiudi</button>
     </div>
    </div>
   </div><!-- Mappa -->
   <section id="map" class="scroll-section max-w-5xl mx-auto px-4 py-8">
    <h2 class="font-heading text-lg font-bold text-[#c4956a] mb-4">Mappa del Viaggio</h2>
-   <div class="rounded-lg overflow-hidden border border-[#c4956a]/20 h-96"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cS5OEoulaENHztXqFk4JHwj-CL0HEvY" width="100%" height="100%" style="border:none;" allowfullscreen loading="lazy"></iframe>
+   <div class="rounded-lg overflow-hidden border border-[#c4956a]/20 h-96">
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cS5OEoulaENHztXqFk4JHwj-CL0HEvY" width="100%" height="100%" style="border:none;" allowfullscreen loading="lazy"></iframe>
    </div>
   </section>
   <footer class="text-center py-4 text-xs text-[#f5ebe0]/40 border-t border-[#c4956a]/10">
@@ -674,5 +672,5 @@
 
     lucide.createIcons();
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fd27ba116aeeddb',t:'MTc3OTAxOTQ0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fd2824087c90dfc',t:'MTc3OTAxOTcxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
